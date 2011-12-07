@@ -1,0 +1,60 @@
+diff -up kdeplasma-addons-4.3.4/applets/CMakeLists.txt.nowebkit kdeplasma-addons-4.3.4/applets/CMakeLists.txt
+--- kdeplasma-addons-4.3.4/applets/CMakeLists.txt.nowebkit	2009-06-24 18:19:56.000000000 +0200
++++ kdeplasma-addons-4.3.4/applets/CMakeLists.txt	2010-06-05 00:46:01.644461487 +0200
+@@ -27,10 +27,10 @@ add_subdirectory(magnifique)
+ add_subdirectory(microblog)
+ add_subdirectory(notes)
+ add_subdirectory(nowplaying)
+-add_subdirectory(opendesktop)
++#add_subdirectory(opendesktop)
+ add_subdirectory(pastebin)
+ add_subdirectory(previewer)
+-add_subdirectory(rememberthemilk)
++#add_subdirectory(rememberthemilk)
+ add_subdirectory(rssnow)
+ add_subdirectory(showdashboard)
+ add_subdirectory(systemloadviewer)
+@@ -40,10 +40,10 @@ add_subdirectory(weather)
+ add_subdirectory(eyes)
+ add_subdirectory(unitconverter)
+ 
+-if(QT_QTWEBKIT_FOUND)
+-  add_subdirectory(dict)
+-  add_subdirectory(news)
+-endif(QT_QTWEBKIT_FOUND)
++#if(QT_QTWEBKIT_FOUND)
++#  add_subdirectory(dict)
++#  add_subdirectory(news)
++#endif(QT_QTWEBKIT_FOUND)
+ 
+ if(PHONON_FOUND)
+   add_subdirectory(mediaplayer)
+diff -up kdeplasma-addons-4.3.4/applets/weather/CMakeLists.txt.nowebkit kdeplasma-addons-4.3.4/applets/weather/CMakeLists.txt
+--- kdeplasma-addons-4.3.4/applets/weather/CMakeLists.txt.nowebkit	2009-04-28 15:46:46.000000000 +0200
++++ kdeplasma-addons-4.3.4/applets/weather/CMakeLists.txt	2010-06-05 00:29:50.199708281 +0200
+@@ -6,7 +6,7 @@ set(weatherapplet_SRCS
+     weatherdelegate.cpp)
+ 
+ kde4_add_plugin(plasma_applet_weather ${weatherapplet_SRCS})
+-target_link_libraries(plasma_applet_weather ${KDE4_PLASMA_LIBS} ${KDE4_KIO_LIBS} ${KDE4_KDEUI_LIBS} plasmaweather weather_ion ${QT_QTWEBKIT_LIBRARY})
++target_link_libraries(plasma_applet_weather ${KDE4_PLASMA_LIBS} ${KDE4_KIO_LIBS} ${KDE4_KDEUI_LIBS} plasmaweather weather_ion)
+ 
+ install(TARGETS plasma_applet_weather DESTINATION ${PLUGIN_INSTALL_DIR})
+ install(FILES plasma-applet-weather.desktop DESTINATION ${SERVICES_INSTALL_DIR})
+diff -up kdeplasma-addons-4.3.4/dataengines/CMakeLists.txt.nowebkit kdeplasma-addons-4.3.4/dataengines/CMakeLists.txt
+--- kdeplasma-addons-4.3.4/dataengines/CMakeLists.txt.nowebkit	2009-05-06 12:14:08.000000000 +0200
++++ kdeplasma-addons-4.3.4/dataengines/CMakeLists.txt	2010-06-05 00:29:50.199708281 +0200
+@@ -2,4 +2,4 @@ add_subdirectory(comic)
+ add_subdirectory(microblog)
+ add_subdirectory(ocs)
+ add_subdirectory(potd)
+-add_subdirectory(rememberthemilk)
++#add_subdirectory(rememberthemilk)
+diff -up kdeplasma-addons-4.3.4/libs/CMakeLists.txt.nowebkit kdeplasma-addons-4.3.4/libs/CMakeLists.txt
+--- kdeplasma-addons-4.3.4/libs/CMakeLists.txt.nowebkit	2009-05-06 12:14:11.000000000 +0200
++++ kdeplasma-addons-4.3.4/libs/CMakeLists.txt	2010-06-05 00:29:50.199708281 +0200
+@@ -1,3 +1,3 @@
+ add_subdirectory(conversion)
+ add_subdirectory(plasmaweather)
+-add_subdirectory(rtm)
++#add_subdirectory(rtm)

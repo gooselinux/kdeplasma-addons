@@ -1,0 +1,1462 @@
+diff -Nur kdeplasma-addons-4.3.4/applets/bball/plasma-applet-bball.desktop kdeplasma-addons-4.3.5/applets/bball/plasma-applet-bball.desktop
+--- kdeplasma-addons-4.3.4/applets/bball/plasma-applet-bball.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/bball/plasma-applet-bball.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=BbalL
+ Name[ar]=BbalL
+ Name[ca]=BbalL
++Name[ca@valencia]=BbalL
+ Name[cs]=BbalL
+ Name[da]=BbalL
+ Name[de]=BbalL
+@@ -49,6 +50,7 @@
+ Comment=A bouncy ball for plasma
+ Comment[ar]=كرة النطاطة للبلازما
+ Comment[ca]=Una pilota que bota per al plasma
++Comment[ca@valencia]=Una pilota que bota per al plasma
+ Comment[cs]=Poskakující míč pro Plasmu
+ Comment[da]=En hoppende bold til Plasma
+ Comment[de]=Ein Springball für Plasma
+diff -Nur kdeplasma-addons-4.3.4/applets/binary-clock/plasma-applet-binaryclock.desktop kdeplasma-addons-4.3.5/applets/binary-clock/plasma-applet-binaryclock.desktop
+--- kdeplasma-addons-4.3.4/applets/binary-clock/plasma-applet-binaryclock.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/binary-clock/plasma-applet-binaryclock.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Binary Clock
+ Name[ar]=ساعة ثنائية
+ Name[ca]=Rellotge binari
++Name[ca@valencia]=Rellotge binari
+ Name[cs]=Binární hodiny
+ Name[da]=Binært ur
+ Name[de]=Binäre Uhr
+@@ -49,6 +50,7 @@
+ Comment=Time displayed in binary format
+ Comment[ar]=الوقت يظهر بالتنسيق الثنائي
+ Comment[ca]=L'hora mostrada en format binari
++Comment[ca@valencia]=L'hora mostrada en format binari
+ Comment[cs]=Zobrazení času v binárním formátu
+ Comment[da]=Tiden vist i binært format
+ Comment[de]=Zeitanzeige im Binärformat
+diff -Nur kdeplasma-addons-4.3.4/applets/bubblemon/plasma-applet-bubblemon.desktop kdeplasma-addons-4.3.5/applets/bubblemon/plasma-applet-bubblemon.desktop
+--- kdeplasma-addons-4.3.4/applets/bubblemon/plasma-applet-bubblemon.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/bubblemon/plasma-applet-bubblemon.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Bubblemon
+ Name[ar]=Bubblemon
+ Name[ca]=Monitor bombolla
++Name[ca@valencia]=Monitor bombolla
+ Name[cs]=Bubblemon
+ Name[da]=Bobbelmon
+ Name[de]=Bubblemon
+@@ -41,6 +42,7 @@
+ Comment=A pretty bubble that monitors your system.
+ Comment[ar]=فقاعة جميلة تراقب نظامك
+ Comment[ca]=Una bombolla bonica que monitoreja el vostre sistema.
++Comment[ca@valencia]=Una bombolla bonica que monitoreja el vostre sistema.
+ Comment[cs]=Pěkná bublina monitorující váš systém.
+ Comment[da]=En pæn bobbel der overvåger dit system.
+ Comment[de]=Eine schicke Blase, die Ihr System überwacht.
+diff -Nur kdeplasma-addons-4.3.4/applets/calculator/plasma-applet-calculator.desktop kdeplasma-addons-4.3.5/applets/calculator/plasma-applet-calculator.desktop
+--- kdeplasma-addons-4.3.4/applets/calculator/plasma-applet-calculator.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/calculator/plasma-applet-calculator.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Calculator
+ Name[ar]=آلة حاسبة
+ Name[ca]=Calculadora
++Name[ca@valencia]=Calculadora
+ Name[cs]=Kalkulačka
+ Name[da]=Lommeregner
+ Name[de]=Rechner
+@@ -51,6 +52,7 @@
+ Comment=Calculate simple sums
+ Comment[ar]=احسب عمليات جمع بسيطة
+ Comment[ca]=Calcula sumes senzilles
++Comment[ca@valencia]=Calcula sumes senzilles
+ Comment[cs]=Jednoduché sčítání
+ Comment[da]=Beregn simple summer.
+ Comment[de]=Für kleine Rechenaufgaben
+diff -Nur kdeplasma-addons-4.3.4/applets/charselect/plasma-applet-charselect.desktop kdeplasma-addons-4.3.5/applets/charselect/plasma-applet-charselect.desktop
+--- kdeplasma-addons-4.3.4/applets/charselect/plasma-applet-charselect.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/charselect/plasma-applet-charselect.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Character Selector
+ Name[ar]=مختار الأحرف
+ Name[ca]=Selector de caràcters
++Name[ca@valencia]=Selector de caràcters
+ Name[cs]=Výběr znaků
+ Name[da]=Tegnvælger
+ Name[de]=Tabelle zur Zeichenauswahl
+@@ -50,6 +51,7 @@
+ Comment=View, select, and copy characters from a font collection
+ Comment[ar]=أظهر، واختر، و انسخ محارف من مجموعة الخط
+ Comment[ca]=Mostra, selecciona i copia caràcters d'una col·lecció de tipus de lletra
++Comment[ca@valencia]=Mostra, selecciona i copia caràcters d'una col·lecció de tipus de lletra
+ Comment[cs]=Zobrazení, výběr a kopírování znaků z kolekce písem
+ Comment[da]=Se, udvælg og kopiér tegn fra en skrifttypesamling.
+ Comment[de]=Zeichen aus einer Sammlung ansehen, auswählen oder kopieren
+diff -Nur kdeplasma-addons-4.3.4/applets/comic/plasma-comic-default.desktop kdeplasma-addons-4.3.5/applets/comic/plasma-comic-default.desktop
+--- kdeplasma-addons-4.3.4/applets/comic/plasma-comic-default.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/comic/plasma-comic-default.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Comic Strip
+ Name[ar]=شريط هزلي
+ Name[ca]=Tira còmica
++Name[ca@valencia]=Tira còmica
+ Name[cs]=Komiksový proužek
+ Name[csb]=Kòmiksowi sztrépk
+ Name[da]=Tegneseriestribe
+@@ -49,6 +50,7 @@
+ Comment=View comic strips from the Internet
+ Comment[ar]=اعرض شرائط هزلية من الإنترنت
+ Comment[ca]=Mostra una tira còmica des d'Internet
++Comment[ca@valencia]=Mostra una tira còmica des d'Internet
+ Comment[cs]=Ukáže komiksový proužek z internetu
+ Comment[da]=Se tegneseriestriber fra internettet.
+ Comment[de]=Comics aus dem Internet anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/dict/plasma-dict-default.desktop kdeplasma-addons-4.3.5/applets/dict/plasma-dict-default.desktop
+--- kdeplasma-addons-4.3.4/applets/dict/plasma-dict-default.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/dict/plasma-dict-default.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Dictionary
+ Name[ar]=قاموس
+ Name[ca]=Diccionari
++Name[ca@valencia]=Diccionari
+ Name[cs]=Slovník
+ Name[csb]=Slowôrz
+ Name[da]=Ordbog
+@@ -53,6 +54,7 @@
+ Comment=Look up the meaning of words and their translation into different languages
+ Comment[ar]=انظر معاني الكلمات و ترجمتها بلغات مختلفة
+ Comment[ca]=Cerca el significat de paraules i la seva traducció en diferents idiomes
++Comment[ca@valencia]=Cerca el significat de paraules i la seua traducció en diferents idiomes
+ Comment[cs]=Vyhledat význam slov a jejich překlad do různých jazyků
+ Comment[da]=Slå ords betydning op samt deres oversættelse til forskellige sprog.
+ Comment[de]=Die Bedeutung von Wörtern und ihre Übersetzung in verschiedene Sprachen nachschlagen
+diff -Nur kdeplasma-addons-4.3.4/applets/eyes/plasma-applet-eyes.desktop kdeplasma-addons-4.3.5/applets/eyes/plasma-applet-eyes.desktop
+--- kdeplasma-addons-4.3.4/applets/eyes/plasma-applet-eyes.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/eyes/plasma-applet-eyes.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Eyes
+ Name[ar]=أعين
+ Name[ca]=Ulls
++Name[ca@valencia]=Ulls
+ Name[cs]=Oči
+ Name[da]=Øjne
+ Name[de]=Augen
+@@ -49,6 +50,7 @@
+ Comment=XEyes clone
+ Comment[ar]=مستنسخ XEyes
+ Comment[ca]=Clon de l'XEyes
++Comment[ca@valencia]=Clon de l'XEyes
+ Comment[cs]=Klon XEyes
+ Comment[da]=Klon af XEyes.
+ Comment[de]=XEyes-Klon
+diff -Nur kdeplasma-addons-4.3.4/applets/fifteenPuzzle/plasma-applet-fifteenPuzzle.desktop kdeplasma-addons-4.3.5/applets/fifteenPuzzle/plasma-applet-fifteenPuzzle.desktop
+--- kdeplasma-addons-4.3.4/applets/fifteenPuzzle/plasma-applet-fifteenPuzzle.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/fifteenPuzzle/plasma-applet-fifteenPuzzle.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Fifteen Puzzle
+ Name[ar]=أحجية الخمسة عشر
+ Name[ca]=Trencaclosques quinze
++Name[ca@valencia]=Trencaclosques quinze
+ Name[cs]=Hra Patnáct
+ Name[csb]=Piãtnôsce pùzzlów
+ Name[da]=Puslespillet 15
+@@ -50,6 +51,7 @@
+ Comment=Put the pieces in order
+ Comment[ar]=ضع القطع في مكانها الصحيح
+ Comment[ca]=Poseu les peces en ordre
++Comment[ca@valencia]=Poseu les peces en orde
+ Comment[cs]=Zkuste dílky správně poskládat
+ Comment[da]=Sæt brikkerne i orden.
+ Comment[de]=Bringen Sie die Teile in die richtige Reihenfolge
+diff -Nur kdeplasma-addons-4.3.4/applets/fileWatcher/plasma-fileWatcher-default.desktop kdeplasma-addons-4.3.5/applets/fileWatcher/plasma-fileWatcher-default.desktop
+--- kdeplasma-addons-4.3.4/applets/fileWatcher/plasma-fileWatcher-default.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/fileWatcher/plasma-fileWatcher-default.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=File Watcher
+ Name[ar]=مراقب الملفات
+ Name[ca]=Vigilant de fitxers
++Name[ca@valencia]=Vigilant de fitxers
+ Name[cs]=Sledování souborů
+ Name[csb]=Òbzérôcz lopka
+ Name[da]=Filovervåger
+@@ -50,6 +51,7 @@
+ Comment=Watch for changes in specified files
+ Comment[ar]=راقب التغييرات في ملفات محددة
+ Comment[ca]=Vigila de canvis en els fitxers especificats
++Comment[ca@valencia]=Vigila de canvis en els fitxers especificats
+ Comment[cs]=Sledování změn v zadaných souborech
+ Comment[da]=Overvåg ændringer i specificerede filer.
+ Comment[de]=Dateien auf Änderungen überwachen
+diff -Nur kdeplasma-addons-4.3.4/applets/frame/CMakeLists.txt kdeplasma-addons-4.3.5/applets/frame/CMakeLists.txt
+--- kdeplasma-addons-4.3.4/applets/frame/CMakeLists.txt	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/frame/CMakeLists.txt	2010-01-21 21:48:30.000000000 +0100
+@@ -1,11 +1,8 @@
+ project(plasma-frame)
+-include (MacroLogFeature)
+ 
+ macro_optional_find_package(Kexiv2)
+ macro_log_feature(KEXIV2_FOUND "libkexiv2" "Library to access EXIF information" "http://www.kde.org" FALSE "0.2.0" "RECOMENDED: Enables automatic rotation for frame applet" )
+ 
+-macro_display_feature_log()
+-
+ set(frame_SRCS
+     frame.cpp
+     slideshow.cpp
+@@ -21,7 +18,7 @@
+ 
+ if(HAVE_KEXIV2)
+     include_directories( ${KEXIV2_INCLUDES} )
+-    set_source_files_properties(picture.cpp PROPERTIES 
++    set_source_files_properties(picture.cpp PROPERTIES
+                                COMPILE_FLAGS -DHAVE_KEXIV2)
+     target_link_libraries(plasma_applet_frame ${KDE4_PLASMA_LIBS} ${KDE4_KIO_LIBS} ${KDE4_KFILE_LIBS} ${KEXIV2_LIBRARIES} )
+ else (HAVE_KEXIV2)
+diff -Nur kdeplasma-addons-4.3.4/applets/frame/plasma-frame-default.desktop kdeplasma-addons-4.3.5/applets/frame/plasma-frame-default.desktop
+--- kdeplasma-addons-4.3.4/applets/frame/plasma-frame-default.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/frame/plasma-frame-default.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Picture Frame
+ Name[ar]=إطار الصورة
+ Name[ca]=Marc de fotografies
++Name[ca@valencia]=Marc de fotografies
+ Name[cs]=Rámeček obrázku
+ Name[csb]=Ramka òbrazu
+ Name[da]=Billedramme
+@@ -50,6 +51,7 @@
+ Comment=Display your favorite pictures
+ Comment[ar]=اعرض صورك المفضلة
+ Comment[ca]=Mostra les fotografies preferides
++Comment[ca@valencia]=Mostra les fotografies preferides
+ Comment[cs]=Zobrazit vaše oblíbené obrázky
+ Comment[csb]=Wëskrzëni swòj lubòtny òbrôzk
+ Comment[da]=Vis dine yndlingsbilleder.
+diff -Nur kdeplasma-addons-4.3.4/applets/fuzzy-clock/plasma-clock-fuzzy.desktop kdeplasma-addons-4.3.5/applets/fuzzy-clock/plasma-clock-fuzzy.desktop
+--- kdeplasma-addons-4.3.4/applets/fuzzy-clock/plasma-clock-fuzzy.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/fuzzy-clock/plasma-clock-fuzzy.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Fuzzy Clock
+ Name[ar]=ساعة تقريبية
+ Name[ca]=Rellotge aproximat
++Name[ca@valencia]=Rellotge aproximat
+ Name[cs]=Nejasné hodiny
+ Name[da]=Unøjagtigt ur
+ Name[de]=Umgangssprachliche Uhr
+@@ -51,6 +52,7 @@
+ Comment=Time displayed in a less precise format
+ Comment[ar]=الوقت يظهر بتنسيق أقل دقة
+ Comment[ca]=L'hora mostrada en un format aproximat
++Comment[ca@valencia]=L'hora mostrada en un format aproximat
+ Comment[cs]=Zobrazení času v nejasném formátu
+ Comment[da]=Tiden vist i et mindre præcist format.
+ Comment[de]=Zeigt die Zeit weniger genau an
+diff -Nur kdeplasma-addons-4.3.4/applets/incomingmsg/plasma-applet-incomingmsg.desktop kdeplasma-addons-4.3.5/applets/incomingmsg/plasma-applet-incomingmsg.desktop
+--- kdeplasma-addons-4.3.4/applets/incomingmsg/plasma-applet-incomingmsg.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/incomingmsg/plasma-applet-incomingmsg.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Incoming Message
+ Name[ar]=رسالة قادمة
+ Name[ca]=Missatge entrant
++Name[ca@valencia]=Missatge entrant
+ Name[cs]=Příchozí zpráva
+ Name[da]=Indkommende besked
+ Name[de]=Posteingang
+@@ -35,7 +36,7 @@
+ Name[ro]=Mesaj recepționat
+ Name[ru]=Входящие сообщения
+ Name[sk]=Prichádzajúca správa
+-Name[sl]=Prihajajoče sporočilo
++Name[sl]=Prejeto sporočilo
+ Name[sr]=долазећа порука
+ Name[sr@latin]=dolazeća poruka
+ Name[sv]=Inkommande meddelande
+@@ -50,6 +51,7 @@
+ Comment=Notification of new messages
+ Comment[ar]=إخطار الرسائل الجديدة
+ Comment[ca]=Notificació de missatges nous
++Comment[ca@valencia]=Notificació de missatges nous
+ Comment[cs]=Upozornění na nové zprávy
+ Comment[da]=Bekendtgørelse om nye beskeder.
+ Comment[de]=Benachrichtigung über neue Nachrichten
+diff -Nur kdeplasma-addons-4.3.4/applets/kolourpicker/plasma-kolourpicker-default.desktop kdeplasma-addons-4.3.5/applets/kolourpicker/plasma-kolourpicker-default.desktop
+--- kdeplasma-addons-4.3.4/applets/kolourpicker/plasma-kolourpicker-default.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/kolourpicker/plasma-kolourpicker-default.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Color Picker
+ Name[ar]=منتق الألوان
+ Name[ca]=Selector de color
++Name[ca@valencia]=Selector de color
+ Name[cs]=Kapátko
+ Name[csb]=Wrbiérk farwë
+ Name[da]=Farvevælger
+@@ -52,6 +53,7 @@
+ Comment=Pick a color from the desktop
+ Comment[ar]=اختر لونا من سطح المكتب
+ Comment[ca]=Selecciona un color de l'escriptori
++Comment[ca@valencia]=Selecciona un color de l'escriptori
+ Comment[cs]=Vzít barvu z plochy
+ Comment[csb]=Wëbiérzë farwã z pùltu
+ Comment[da]=Pluk en farve fra skrivebordet.
+diff -Nur kdeplasma-addons-4.3.4/applets/konqprofiles/plasma-applet-konqprofiles.desktop kdeplasma-addons-4.3.5/applets/konqprofiles/plasma-applet-konqprofiles.desktop
+--- kdeplasma-addons-4.3.4/applets/konqprofiles/plasma-applet-konqprofiles.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/konqprofiles/plasma-applet-konqprofiles.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Konqueror Profiles
+ Name[ar]=تشكيلة كنيكر
+ Name[ca]=Perfils del Konqueror
++Name[ca@valencia]=Perfils del Konqueror
+ Name[cs]=Profily Konqueroru
+ Name[da]=Konqueror-profiler
+ Name[de]=Konqueror-Profile
+@@ -49,6 +50,7 @@
+ Comment=List and launch Konqueror profiles
+ Comment[ar]=تعرض و تطلق تشكيلات كنكير
+ Comment[ca]=Llista i executa els perfils del Konqueror
++Comment[ca@valencia]=Llista i executa els perfils del Konqueror
+ Comment[cs]=Seznam a spouštění profilů Konqueroru
+ Comment[da]=Vis og start Konqueror-profiler.
+ Comment[de]=Konqueror-Profile anzeigen und starten
+diff -Nur kdeplasma-addons-4.3.4/applets/konsoleprofiles/plasma-applet-konsoleprofiles.desktop kdeplasma-addons-4.3.5/applets/konsoleprofiles/plasma-applet-konsoleprofiles.desktop
+--- kdeplasma-addons-4.3.4/applets/konsoleprofiles/plasma-applet-konsoleprofiles.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/konsoleprofiles/plasma-applet-konsoleprofiles.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Konsole Profiles
+ Name[ar]=تشكيلات كونسول
+ Name[ca]=Perfils del Konsole
++Name[ca@valencia]=Perfils del Konsole
+ Name[cs]=Profily Konsole
+ Name[da]=Konsole-profiler
+ Name[de]=Konsole-Profile
+@@ -49,6 +50,7 @@
+ Comment=List and launch Konsole profiles
+ Comment[ar]=تعرض و تطلق تشكيلات كونسول
+ Comment[ca]=Llista i executa els perfils del Konsole
++Comment[ca@valencia]=Llista i executa els perfils del Konsole
+ Comment[cs]=Seznam a spouštění profilů Konsole
+ Comment[da]=Vis og start Konsole-profiler.
+ Comment[de]=Konsole-Profile anzeigen und starten
+diff -Nur kdeplasma-addons-4.3.4/applets/lancelot/app/src/lancelot.notifyrc kdeplasma-addons-4.3.5/applets/lancelot/app/src/lancelot.notifyrc
+--- kdeplasma-addons-4.3.4/applets/lancelot/app/src/lancelot.notifyrc	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/lancelot/app/src/lancelot.notifyrc	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Lancelot
+ Name[ar]=لانسلوت
+ Name[ca]=Lancelot
++Name[ca@valencia]=Lancelot
+ Name[cs]=Lancelot
+ Name[da]=Lancelot
+ Name[de]=Lancelot
+@@ -43,6 +44,7 @@
+ Comment=Lancelot Menu
+ Comment[ar]=قائمة لانسلوت
+ Comment[ca]=Menú del Lancelot
++Comment[ca@valencia]=Menú del Lancelot
+ Comment[cs]=Nabídka Lancelotu
+ Comment[da]=Lancelot-menu
+ Comment[de]=Lancelot-Menü
+@@ -86,6 +88,7 @@
+ Name=Usage logging is activated
+ Name[ar]=تستجيل الاستخدام نشط
+ Name[ca]=L'ús del registre està activat
++Name[ca@valencia]=L'ús del registre està activat
+ Name[cs]=Je aktivován záznam použití
+ Name[da]=Logning af anvendelse er aktiveret.
+ Name[de]=Benutzungsprotokoll ist aktiviert
+@@ -125,6 +128,7 @@
+ Comment=Shown only on first launch. Notifies that the usage logging is turned 'on'.
+ Comment[ar]=تظهر فقط عند الإطلاق الأول ، لتخبر بأن تسجيل الاستخدام 'يعمل'.
+ Comment[ca]=Només es mostra en la primera execució. Notifica que el registre d'ús està 'activat'.
++Comment[ca@valencia]=Només es mostra en la primera execució. Notifica que el registre d'ús està 'activat'.
+ Comment[da]=Vises kun ved første start. Gør brugeren opmærksom på at anvendelseslogning er slået "til".
+ Comment[de]=Wird nur beim ersten Start angezeigt. Benachrichtigung, dass die Benutzungsprotokollierung aktiviert ist.
+ Comment[el]=Εμφάνιση μόνο στην πρώτη εκτέλεση. Ειδοποίηση ότι η καταγραφής χρήσης είναι 'ενεργή'.
+@@ -164,6 +168,7 @@
+ Name=Error opening the log
+ Name[ar]=خطأ أثناء فتح السجل
+ Name[ca]=Hi ha hagut un error en obrir el registre
++Name[ca@valencia]=Hi ha hagut un error en obrir el registre
+ Name[cs]=Chyba při otevírání záznamu
+ Name[da]=Fejl ved åbning af log
+ Name[de]=Fehler beim Öffnen des Protokolls
+@@ -203,6 +208,7 @@
+ Comment=Failed to open the log file.
+ Comment[ar]=فشل في فتح السجل.
+ Comment[ca]=No s'ha pogut obrir el fitxer de registre.
++Comment[ca@valencia]=No s'ha pogut obrir el fitxer de registre.
+ Comment[cs]=Nepovedlo se otevřít soubor záznamu.
+ Comment[da]=Åbning af logfilen mislykkedes.
+ Comment[de]=Die Protokolldatei kann nicht geöffnet werden.
+diff -Nur kdeplasma-addons-4.3.4/applets/lancelot/app/src/launcher/plasma-applet-lancelot-launcher.desktop kdeplasma-addons-4.3.5/applets/lancelot/app/src/launcher/plasma-applet-lancelot-launcher.desktop
+--- kdeplasma-addons-4.3.4/applets/lancelot/app/src/launcher/plasma-applet-lancelot-launcher.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/lancelot/app/src/launcher/plasma-applet-lancelot-launcher.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name=Lancelot Launcher
+ Name[ar]=مطلق لانسلوت
+ Name[ca]=Engegador Lancelot
++Name[ca@valencia]=Engegador Lancelot
+ Name[cs]=Spouštěč Lancelot
+ Name[csb]=Zrëszôcz Lancelot
+ Name[da]=Startmenuen Lancelot
+@@ -53,6 +54,7 @@
+ Comment=Launcher to start applications
+ Comment[ar]=قائمة بدء التطبيقات
+ Comment[ca]=Engegador per a iniciar aplicacions
++Comment[ca@valencia]=Engegador per a iniciar aplicacions
+ Comment[cs]=Spouštěč aplikací
+ Comment[csb]=Zrëszocz programów
+ Comment[da]=Menu til at starte programmer.
+diff -Nur kdeplasma-addons-4.3.4/applets/lancelot/app/src/parts/plasma-applet-lancelot-part.desktop kdeplasma-addons-4.3.5/applets/lancelot/app/src/parts/plasma-applet-lancelot-part.desktop
+--- kdeplasma-addons-4.3.4/applets/lancelot/app/src/parts/plasma-applet-lancelot-part.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/lancelot/app/src/parts/plasma-applet-lancelot-part.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -4,6 +4,7 @@
+ Name=Lancelot Part
+ Name[ar]=جزء لانسلوت
+ Name[ca]=Part del Lancelot
++Name[ca@valencia]=Part del Lancelot
+ Name[cs]=Lancelot part
+ Name[csb]=Dzélk Lancelota
+ Name[da]=Lancelot-part
+@@ -53,6 +54,7 @@
+ Comment=Parts of Lancelot menu on the desktop
+ Comment[ar]=أجزاء لقائمة لانسلوت على سطح المكتب
+ Comment[ca]=Parts del menú del Lancelot a l'escriptori
++Comment[ca@valencia]=Parts del menú del Lancelot a l'escriptori
+ Comment[cs]=Části Lancelot menu na ploše
+ Comment[csb]=Dzélczi menu Lancelota na pùlce
+ Comment[da]=Dele af Lancelot-menuen på skrivebordet.
+diff -Nur kdeplasma-addons-4.3.4/applets/leavenote/leavenote.cpp kdeplasma-addons-4.3.5/applets/leavenote/leavenote.cpp
+--- kdeplasma-addons-4.3.4/applets/leavenote/leavenote.cpp	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/leavenote/leavenote.cpp	2010-01-21 21:48:30.000000000 +0100
+@@ -251,7 +251,7 @@
+     kDebug();
+     if (mUseKNotes) {
+         QDBusInterface knotesDBus("org.kde.knotes", "/KNotes", "org.kde.KNotes");
+-        knotesDBus.call("newNote", title, msg);
++        knotesDBus.asyncCall("newNote", title, msg);
+     } else {
+         QWidget* widget = new QWidget(0);
+         widget->setWindowTitle(title);
+diff -Nur kdeplasma-addons-4.3.4/applets/leavenote/plasma-applet-leavenote.desktop kdeplasma-addons-4.3.5/applets/leavenote/plasma-applet-leavenote.desktop
+--- kdeplasma-addons-4.3.4/applets/leavenote/plasma-applet-leavenote.desktop	2009-11-27 14:04:35.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/leavenote/plasma-applet-leavenote.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Leave A Note
+ Name[ar]=اترك ملاحظة
+ Name[ca]=Deixa una nota
++Name[ca@valencia]=Deixa una nota
+ Name[cs]=Zanechat vzkaz
+ Name[da]=Efterlad en note
+ Name[de]=Nachricht hinterlassen
+@@ -50,6 +51,7 @@
+ Comment=Leave notes for users while they are away
+ Comment[ar]=اترك ملاحظة للمستخدمين غير الموجودين
+ Comment[ca]=Deixa notes pels usuaris que no hi son
++Comment[ca@valencia]=Deixa notes pels usuaris que no hi son
+ Comment[cs]=Ponechte zprávy uživatelům, pokud jsou pryč
+ Comment[da]=Efterlad noter til brugere når de er borte.
+ Comment[de]=Abwesenden Benutzern eine Nachricht hinterlassen
+diff -Nur kdeplasma-addons-4.3.4/applets/life/plasma-applet-life.desktop kdeplasma-addons-4.3.5/applets/life/plasma-applet-life.desktop
+--- kdeplasma-addons-4.3.4/applets/life/plasma-applet-life.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/life/plasma-applet-life.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Life
+ Name[ar]=الحياة
+ Name[ca]=Vida
++Name[ca@valencia]=Vida
+ Name[cs]=Život
+ Name[da]=Liv
+ Name[de]=Life
+@@ -51,6 +52,7 @@
+ Comment= Conway's Game of Life applet
+ Comment[ar]=بريمج لعبة الحياة Conway
+ Comment[ca]=Miniaplicació del joc de la vida de Conway
++Comment[ca@valencia]=Miniaplicació del joc de la vida de Conway
+ Comment[da]=Applet til Conways spil om liv.
+ Comment[de]=Conways Spiel des Lebens
+ Comment[el]=Μικροεφαρμογή του παιχνιδιού της Ζωής του Conway
+diff -Nur kdeplasma-addons-4.3.4/applets/luna/plasma-applet-luna.desktop kdeplasma-addons-4.3.5/applets/luna/plasma-applet-luna.desktop
+--- kdeplasma-addons-4.3.4/applets/luna/plasma-applet-luna.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/luna/plasma-applet-luna.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Luna
+ Name[ar]=لونا
+ Name[ca]=Lluna
++Name[ca@valencia]=Lluna
+ Name[cs]=Luna
+ Name[da]=Luna
+ Name[de]=Luna
+@@ -50,6 +51,7 @@
+ Comment=Display moon phases for your location
+ Comment[ar]=أظهر أطوار القمر في المكان الذي انت فيه
+ Comment[ca]=Mostra les fases de la lluna per a la vostra ubicació
++Comment[ca@valencia]=Mostra les fases de la lluna per a la vostra ubicació
+ Comment[cs]=Zobrazení fází měsíce
+ Comment[da]=Viser månefaser for dit lokalområde.
+ Comment[de]=Mondphasen für Ihren Standort anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/magnifique/plasma-applet-magnifique.desktop kdeplasma-addons-4.3.5/applets/magnifique/plasma-applet-magnifique.desktop
+--- kdeplasma-addons-4.3.4/applets/magnifique/plasma-applet-magnifique.desktop	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/magnifique/plasma-applet-magnifique.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Magnifique
+ Name[ar]=المكبر
+ Name[ca]=Magnifique
++Name[ca@valencia]=Magnifique
+ Name[cs]=Magnifique
+ Name[da]=Magnifique
+ Name[de]=Vergrößerung
+@@ -40,6 +41,7 @@
+ Name[zh_TW]=Magnifique
+ Comment=A magnification glass for the Plasma desktop
+ Comment[ca]=Una lent d'augment per l'escriptori Plasma
++Comment[ca@valencia]=Una lent d'augment per l'escriptori Plasma
+ Comment[cs]=Zvětšovací sklo pro Plasma desktop
+ Comment[da]=Et forstørrelsesglas til Plasma-skrivebordet
+ Comment[de]=Ein Vergrößerungsglas für die Plasma-Arbeitsfläche
+diff -Nur kdeplasma-addons-4.3.4/applets/mediaplayer/plasma-applet-mediaplayer.desktop kdeplasma-addons-4.3.5/applets/mediaplayer/plasma-applet-mediaplayer.desktop
+--- kdeplasma-addons-4.3.4/applets/mediaplayer/plasma-applet-mediaplayer.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/mediaplayer/plasma-applet-mediaplayer.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Media Player
+ Name[ar]=مشغل وسائط
+ Name[ca]=Reproductor Multimèdia
++Name[ca@valencia]=Reproductor Multimèdia
+ Name[cs]=Přehrávač médií
+ Name[da]=Medieafspiller
+ Name[de]=Medienspieler
+@@ -42,6 +43,7 @@
+ Comment=Widget that can play video and sound
+ Comment[ar]=ودجة تستطيع أن تشغل الصوت و الفيديو
+ Comment[ca]=Estri que permet reproduir vídeos i so.
++Comment[ca@valencia]=Estri que permet reproduir vídeos i so.
+ Comment[cs]=Applet přehrávající video a zvuk
+ Comment[da]=Widget der kan afspille video og lyd.
+ Comment[de]=Abspielen von Video- und Audio-Dateien
+diff -Nur kdeplasma-addons-4.3.4/applets/microblog/plasma-applet-microblog.desktop kdeplasma-addons-4.3.5/applets/microblog/plasma-applet-microblog.desktop
+--- kdeplasma-addons-4.3.4/applets/microblog/plasma-applet-microblog.desktop	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/microblog/plasma-applet-microblog.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Microblogging
+ Name[ar]=التدوين المصغر
+ Name[ca]=Microblocs
++Name[ca@valencia]=Microblocs
+ Name[cs]=Mikroblogování
+ Name[da]=Mikroblogning
+ Name[de]=Microblogging
+@@ -43,6 +44,7 @@
+ Comment=Update and view your microblog status.
+ Comment[ar]=حدث و شاهد حالة تدويناتك.
+ Comment[ca]=Actualitza i mostra l'estat del vostre microbloc.
++Comment[ca@valencia]=Actualitza i mostra l'estat del vostre microbloc.
+ Comment[cs]=Aktualizujte a prohlížejte stav svého mikroblogování.
+ Comment[da]=Opdater og se status for din mikroblog.
+ Comment[de]=Status Ihres Microblogs aktualisieren und anzeigen.
+diff -Nur kdeplasma-addons-4.3.4/applets/news/plasma-applet-news.desktop kdeplasma-addons-4.3.5/applets/news/plasma-applet-news.desktop
+--- kdeplasma-addons-4.3.4/applets/news/plasma-applet-news.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/news/plasma-applet-news.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=News
+ Name[ar]=أخبار
+ Name[ca]=Notícies
++Name[ca@valencia]=Notícies
+ Name[cs]=Novinky
+ Name[da]=Nyheder
+ Name[de]=News
+@@ -50,6 +51,7 @@
+ Comment=Show news from various sources
+ Comment[ar]=أظهر الأخبار من مصادر متعددة
+ Comment[ca]=Mostra les notícies de diverses fonts
++Comment[ca@valencia]=Mostra les notícies de diverses fonts
+ Comment[cs]=Zobrazit novinky z různých zdrojů
+ Comment[da]=Viser nyheder fra forskellige kilder.
+ Comment[de]=Neuigkeiten aus verschiedenen Quellen anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/notes/plasma-notes-default.desktop kdeplasma-addons-4.3.5/applets/notes/plasma-notes-default.desktop
+--- kdeplasma-addons-4.3.4/applets/notes/plasma-notes-default.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/notes/plasma-notes-default.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name[ar]=ملاحظات
+ Name[be]=Заметкі
+ Name[ca]=Notes
++Name[ca@valencia]=Notes
+ Name[cs]=Poznámky
+ Name[csb]=Nadczidczi
+ Name[da]=Noter
+@@ -54,6 +55,7 @@
+ Comment=Desktop sticky notes
+ Comment[ar]=ملاحظات لاصقة على سطح المكتب
+ Comment[ca]=Notes adherents d'escriptori
++Comment[ca@valencia]=Notes adherents d'escriptori
+ Comment[cs]=Lepící poznámkové papírky na plochu
+ Comment[da]=Notessedler på skrivebordet.
+ Comment[de]=Klebezettel für die Arbeitsfläche
+diff -Nur kdeplasma-addons-4.3.4/applets/nowplaying/plasma-applet-nowplaying.desktop kdeplasma-addons-4.3.5/applets/nowplaying/plasma-applet-nowplaying.desktop
+--- kdeplasma-addons-4.3.4/applets/nowplaying/plasma-applet-nowplaying.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/nowplaying/plasma-applet-nowplaying.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Now Playing
+ Name[ar]=المشغل الآن
+ Name[ca]=Ara s'està escoltant
++Name[ca@valencia]=Ara s'està escoltant
+ Name[cs]=Nyní se hraje
+ Name[da]=Nu spilles
+ Name[de]=Musiktitel-Anzeige
+@@ -52,6 +53,7 @@
+ Comment=Displays currently playing audio
+ Comment[ar]=أظهر الملفات الصوتية التي تعمل حاليا
+ Comment[ca]=Mostra la reproducció d'àudio actual
++Comment[ca@valencia]=Mostra la reproducció d'àudio actual
+ Comment[cs]=Zobrazení informací o právě přehrávaných skladbách
+ Comment[da]=Viser musikken som aktuelt afspilles.
+ Comment[de]=Den derzeit laufenden Musiktitel anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/opendesktop/plasma-applet-opendesktop.desktop kdeplasma-addons-4.3.5/applets/opendesktop/plasma-applet-opendesktop.desktop
+--- kdeplasma-addons-4.3.4/applets/opendesktop/plasma-applet-opendesktop.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/opendesktop/plasma-applet-opendesktop.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=openDesktop
+ Name[ar]=openDesktop
+ Name[ca]=openDesktop
++Name[ca@valencia]=openDesktop
+ Name[cs]=openDesktop
+ Name[da]=openDesktop
+ Name[de]=openDesktop
+@@ -41,6 +42,7 @@
+ Comment=Communicate using the Social Desktop
+ Comment[ar]=تواصبل باستخدام سطح المكتب الاجتماعي
+ Comment[ca]=Comuniqueu-vos usant l'escriptori social
++Comment[ca@valencia]=Comuniqueu-vos usant l'escriptori social
+ Comment[cs]=Komunikujte pomocí Sociálního desktopu
+ Comment[da]=Kommunikér ved hjælp det sociale skrivebord.
+ Comment[de]=Über den Social Desktop kommunizieren
+@@ -91,6 +93,7 @@
+ Keywords=Utilities
+ Keywords[ar]=أدوات
+ Keywords[ca]=Utilitats
++Keywords[ca@valencia]=Utilitats
+ Keywords[cs]=Nástroje
+ Keywords[da]=Redskaber
+ Keywords[de]=Dienstprogramme
+diff -Nur kdeplasma-addons-4.3.4/applets/paste/plasma-applet-paste.desktop kdeplasma-addons-4.3.5/applets/paste/plasma-applet-paste.desktop
+--- kdeplasma-addons-4.3.4/applets/paste/plasma-applet-paste.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/paste/plasma-applet-paste.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Paste
+ Name[ar]=ألصق
+ Name[ca]=Enganxa
++Name[ca@valencia]=Enganxa
+ Name[cs]=Vložit
+ Name[da]=Indsæt
+ Name[de]=Einfügen
+@@ -51,6 +52,7 @@
+ Comment=Paste text snippets
+ Comment[ar]=ألصق قطع من النص
+ Comment[ca]=Enganxa retalls de text
++Comment[ca@valencia]=Enganxa retalls de text
+ Comment[cs]=Vložit textové úryvky
+ Comment[da]=Indsætter tekststbidder.
+ Comment[de]=Textschnipsel einfügen
+diff -Nur kdeplasma-addons-4.3.4/applets/pastebin/plasma-applet-pastebin.desktop kdeplasma-addons-4.3.5/applets/pastebin/plasma-applet-pastebin.desktop
+--- kdeplasma-addons-4.3.4/applets/pastebin/plasma-applet-pastebin.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/pastebin/plasma-applet-pastebin.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Pastebin
+ Name[ar]=سلة اللصق
+ Name[ca]=Pastebin
++Name[ca@valencia]=Pastebin
+ Name[cs]=Vkládací koš
+ Name[da]=Pastebin
+ Name[de]=Pastebin
+@@ -48,6 +49,7 @@
+ Comment=Paste text/images to a remote server
+ Comment[ar]=الصق نص/صور في خادم بعيد
+ Comment[ca]=Enganxa text/imatges en un servidor remot
++Comment[ca@valencia]=Enganxa text/imatges en un servidor remot
+ Comment[cs]=Vložit text/obrázky na vzdálený server
+ Comment[da]=Indsæt tekst/billeder på en ekstern server.
+ Comment[de]=Text und Bilder auf einen entfernten Server hochladen
+diff -Nur kdeplasma-addons-4.3.4/applets/pastebin/plasma_pastebin.notifyrc kdeplasma-addons-4.3.5/applets/pastebin/plasma_pastebin.notifyrc
+--- kdeplasma-addons-4.3.4/applets/pastebin/plasma_pastebin.notifyrc	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/pastebin/plasma_pastebin.notifyrc	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Pastebin
+ Name[ar]=سلة اللصق
+ Name[ca]=Pastebin
++Name[ca@valencia]=Pastebin
+ Name[cs]=Vkládací koš
+ Name[da]=Pastebin
+ Name[de]=Pastebin
+@@ -49,6 +50,7 @@
+ Comment=Pastebin Widget
+ Comment[ar]=ودجة سلة اللصق
+ Comment[ca]=Estri Pastebin
++Comment[ca@valencia]=Estri Pastebin
+ Comment[cs]=Pastebin applet
+ Comment[da]=Pastebin-widget
+ Comment[de]=Pastebin-Widget
+@@ -93,6 +95,7 @@
+ Name=Copied pastebin link
+ Name[ar]=وصلة سلطة اللصق منسوخة
+ Name[ca]=Enllaç pastebin copiat
++Name[ca@valencia]=Enllaç pastebin copiat
+ Name[cs]=Pastebin odkaz zkopírován
+ Name[da]=Kopieret pastebin-link
+ Name[de]=Kopierte Pastebin-Verknüpfung
+@@ -132,6 +135,7 @@
+ Comment=The pastebin URL has been copied to the clipboard
+ Comment[ar]=نسخت وصلة سلة اللصق إلى الحافظة.
+ Comment[ca]=S'ha copiat l'URL de pastebin al porta-retalls
++Comment[ca@valencia]=S'ha copiat l'URL de pastebin al porta-retalls
+ Comment[cs]=Pastebin URL bylo zkopírováno do schránky
+ Comment[da]=Pastebin-URL'en er blevet kopieret til udklipsholderen.
+ Comment[de]=Die Pastebin-Adresse wurde in die Zwischenablage kopiert
+diff -Nur kdeplasma-addons-4.3.4/applets/previewer/plasma-applet-previewer.desktop kdeplasma-addons-4.3.5/applets/previewer/plasma-applet-previewer.desktop
+--- kdeplasma-addons-4.3.4/applets/previewer/plasma-applet-previewer.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/previewer/plasma-applet-previewer.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Previewer
+ Name[ar]=المعاين
+ Name[ca]=Previsualitzador
++Name[ca@valencia]=Previsualitzador
+ Name[cs]=Náhled
+ Name[da]=Forhåndsviser
+ Name[de]=Vorschau
+@@ -49,6 +50,7 @@
+ Comment=Quickly preview a variety of files
+ Comment[ar]=عاين مختلف الملفات بسرعة
+ Comment[ca]=Vista prèvia ràpida d'una varietat de fitxers
++Comment[ca@valencia]=Vista prèvia ràpida d'una varietat de fitxers
+ Comment[cs]=Rychlý náhled souborů
+ Comment[da]=Hurtig forhåndsvisning af mange slags filer.
+ Comment[de]=Vorschau für eine Vielzahl Dateien anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/previewer/preview.desktop kdeplasma-addons-4.3.5/applets/previewer/preview.desktop
+--- kdeplasma-addons-4.3.4/applets/previewer/preview.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/previewer/preview.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -8,6 +8,7 @@
+ Name=Preview This File
+ Name[ar]=عاين هذا الملف
+ Name[ca]=Vista prèvia d'aquest fitxer
++Name[ca@valencia]=Vista prèvia d'este fitxer
+ Name[cs]=Náhled tohoto souboru
+ Name[da]=Forhåndsvis denne fil
+ Name[de]=Vorschau für diese Datei anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/rememberthemilk/plasma-applet-rememberthemilk.desktop kdeplasma-addons-4.3.5/applets/rememberthemilk/plasma-applet-rememberthemilk.desktop
+--- kdeplasma-addons-4.3.4/applets/rememberthemilk/plasma-applet-rememberthemilk.desktop	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/rememberthemilk/plasma-applet-rememberthemilk.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Remember The Milk
+ Name[ar]=Remember The Milk
+ Name[ca]=Remember The Milk
++Name[ca@valencia]=Remember The Milk
+ Name[cs]=Remember The Milk
+ Name[da]=Remember The Milk
+ Name[de]=Remember The Milk
+@@ -39,6 +40,7 @@
+ Comment=Remember The Milk Todo list applet
+ Comment[ar]=بريمج قائمة المهام Remember The Milk 
+ Comment[ca]=Miniaplicació per la llista de coses pendents de «Remember The Milk»
++Comment[ca@valencia]=Miniaplicació per la llista de coses pendents de «Remember The Milk»
+ Comment[cs]=Applet úkolů Remember The Milk
+ Comment[da]=Remember The Milk er en opgaveliste-applet.
+ Comment[de]=Todo-Listen-Miniprogramm für Remember the Milk
+diff -Nur kdeplasma-addons-4.3.4/applets/rssnow/plasma-applet-rssnow.desktop kdeplasma-addons-4.3.5/applets/rssnow/plasma-applet-rssnow.desktop
+--- kdeplasma-addons-4.3.4/applets/rssnow/plasma-applet-rssnow.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/rssnow/plasma-applet-rssnow.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=RSSNOW
+ Name[ar]=RSSNOW
+ Name[ca]=RSSNOW
++Name[ca@valencia]=RSSNOW
+ Name[cs]=RSSNOW
+ Name[da]=RSSNOW
+ Name[de]=RSSNOW
+@@ -49,6 +50,7 @@
+ Comment=Show news from various sources
+ Comment[ar]=أظهر الأخبار من مصادر متعددة
+ Comment[ca]=Mostra les notícies de diverses fonts
++Comment[ca@valencia]=Mostra les notícies de diverses fonts
+ Comment[cs]=Zobrazit novinky z různých zdrojů
+ Comment[da]=Viser nyheder fra forskellige kilder.
+ Comment[de]=Neuigkeiten aus verschiedenen Quellen anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/showdashboard/plasma-applet-showdashboard.desktop kdeplasma-addons-4.3.5/applets/showdashboard/plasma-applet-showdashboard.desktop
+--- kdeplasma-addons-4.3.4/applets/showdashboard/plasma-applet-showdashboard.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/showdashboard/plasma-applet-showdashboard.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Show Widget Dashboard
+ Name[ar]=أظهر لوحة الودجات
+ Name[ca]=Mostra el tauler d'estris
++Name[ca@valencia]=Mostra el tauler d'estris
+ Name[cs]=Zobrazit přístrojovou desku
+ Name[da]=Vis widget-instrumentbræt
+ Name[de]=Widget-Dashboard anzeigen
+@@ -48,6 +49,7 @@
+ Comment=Show the Plasma widget dashboard above other windows
+ Comment[ar]=اظهر لوحة ودجات البلازما فوق النوافذ
+ Comment[ca]=Mostra el tauler d'estris del Plasma per sobre de les altres finestres
++Comment[ca@valencia]=Mostra el tauler d'estris del Plasma per sobre de les altres finestres
+ Comment[cs]=Zobrazit přístrojovou desku Plasmy na ostatními okny
+ Comment[da]=Viser Plasmas widget-instrumentbræt over andre vinduer.
+ Comment[de]=Das Widget-Dashbord über anderen Fenstern anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/showdesktop/plasma-applet-showdesktop.desktop kdeplasma-addons-4.3.5/applets/showdesktop/plasma-applet-showdesktop.desktop
+--- kdeplasma-addons-4.3.4/applets/showdesktop/plasma-applet-showdesktop.desktop	2009-11-27 14:04:35.000000000 +0100
++++ kdeplasma-addons-4.3.5/applets/showdesktop/plasma-applet-showdesktop.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Show Desktop
+ Name[ar]=أظهر سطح المكتب
+ Name[ca]=Mostra l'escriptori
++Name[ca@valencia]=Mostra l'escriptori
+ Name[cs]=Zobrazit plochu
+ Name[da]=Vis skrivebord
+ Name[de]=Arbeitsfläche anzeigen
+@@ -51,6 +52,7 @@
+ Comment=Show the Plasma desktop
+ Comment[ar]=أظهر سطح مكتب بلازما
+ Comment[ca]=Mostra l'escriptori Plasma
++Comment[ca@valencia]=Mostra l'escriptori Plasma
+ Comment[cs]=Zobrazení plochy Plasmy
+ Comment[da]=Viser Plasmas skrivebord.
+ Comment[de]=Die Plasma-Arbeitsfläche anzeigen
+diff -Nur kdeplasma-addons-4.3.4/applets/systemloadviewer/plasma-applet-systemloadviewer.desktop kdeplasma-addons-4.3.5/applets/systemloadviewer/plasma-applet-systemloadviewer.desktop
+--- kdeplasma-addons-4.3.4/applets/systemloadviewer/plasma-applet-systemloadviewer.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/systemloadviewer/plasma-applet-systemloadviewer.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=System Load Viewer
+ Name[ar]=عارض حمل النظام
+ Name[ca]=Visor de la càrrega del sistema
++Name[ca@valencia]=Visor de la càrrega del sistema
+ Name[cs]=Prohlížeč zátěže systému
+ Name[da]=Systembelastningsviser
+ Name[de]=Systemlast-Anzeige
+@@ -43,6 +44,7 @@
+ Comment=Tiny CPU/RAM/Swap monitor
+ Comment[ar]=مراقب المعالج/الذاكرة/التبديل
+ Comment[ca]=Monitor petit de CPU/RAM/Memòria d'intercanvi
++Comment[ca@valencia]=Monitor petit de CPU/RAM/Memòria d'intercanvi
+ Comment[cs]=Malý monitor CPU/RAM/Swap
+ Comment[da]=Lillebitte CPU/RAM/swap-overvåger.
+ Comment[de]=Kleine CPU/RAM/Swap-Anzeige
+diff -Nur kdeplasma-addons-4.3.4/applets/systemloadviewer/systemloadviewer.cpp kdeplasma-addons-4.3.5/applets/systemloadviewer/systemloadviewer.cpp
+--- kdeplasma-addons-4.3.4/applets/systemloadviewer/systemloadviewer.cpp	2009-06-17 22:07:53.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/systemloadviewer/systemloadviewer.cpp	2010-01-21 21:48:30.000000000 +0100
+@@ -26,6 +26,7 @@
+ #include <Plasma/ToolTipContent>
+ 
+ #include <KConfigDialog>
++#include <KColorUtils>
+ 
+ #include <QtGui/QPainter>
+ 
+@@ -467,8 +468,8 @@
+ {
+     if (rect.height() > 0.0) {
+         static QLinearGradient grad(0.0, 0.0, 1.0, 0.0);
+-        grad.setColorAt(0, color.lighter());
+-        grad.setColorAt(1, color.darker());
++        grad.setColorAt(0, KColorUtils::lighten(color));
++        grad.setColorAt(1, KColorUtils::darken(color));
+         QBrush brush(grad);
+         p->setBrush(brush);
+         p->setPen(QPen(brush, 0));
+diff -Nur kdeplasma-addons-4.3.4/applets/timer/plasma-applet-timer.desktop kdeplasma-addons-4.3.5/applets/timer/plasma-applet-timer.desktop
+--- kdeplasma-addons-4.3.4/applets/timer/plasma-applet-timer.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/timer/plasma-applet-timer.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Timer
+ Name[ar]=مؤقت
+ Name[ca]=Temporitzador
++Name[ca@valencia]=Temporitzador
+ Name[cs]=Stopky
+ Name[da]=Nedtællingsur
+ Name[de]=Eieruhr
+@@ -50,6 +51,7 @@
+ Comment=Countdown over a specified time period
+ Comment[ar]=قم بالعد التنازلي خلال فترة زمنية محددة
+ Comment[ca]=Compte enrere durant un període de temps especificat
++Comment[ca@valencia]=Compte arrere durant un període de temps especificat
+ Comment[cs]=Odpočítávání událostí
+ Comment[da]=Nedtælling over en angivet tidsperiode.
+ Comment[de]=Einen bestimmten Zeitabschnitt zurückzählen
+diff -Nur kdeplasma-addons-4.3.4/applets/unitconverter/plasma-applet-unitconverter.desktop kdeplasma-addons-4.3.5/applets/unitconverter/plasma-applet-unitconverter.desktop
+--- kdeplasma-addons-4.3.4/applets/unitconverter/plasma-applet-unitconverter.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/unitconverter/plasma-applet-unitconverter.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Unit Converter
+ Name[ar]=محول الوحدات
+ Name[ca]=Conversor d'unitats
++Name[ca@valencia]=Conversor d'unitats
+ Name[cs]=Převod jednotek
+ Name[da]=Enhedskonvertering
+ Name[de]=Einheiten-Umwandler
+@@ -50,6 +51,7 @@
+ Comment=Plasmoid for converting units
+ Comment[ar]=بلازمويد لتحويل الوحدات
+ Comment[ca]=Plasmoide per convertir unitats
++Comment[ca@valencia]=Plasmoide per convertir unitats
+ Comment[cs]=Plasmoid pro převod jednotek
+ Comment[da]=Plasmoid til at konvertere enheder.
+ Comment[de]=Plasmoid zum Konvertieren von Einheiten
+diff -Nur kdeplasma-addons-4.3.4/applets/weather/plasma-applet-weather.desktop kdeplasma-addons-4.3.5/applets/weather/plasma-applet-weather.desktop
+--- kdeplasma-addons-4.3.4/applets/weather/plasma-applet-weather.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/weather/plasma-applet-weather.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Weather Forecast
+ Name[ar]=تنبؤات الطقس
+ Name[ca]=Previsió meteorològica
++Name[ca@valencia]=Previsió meteorològica
+ Name[cs]=Předpověď počasí
+ Name[da]=Vejrudsigt
+ Name[de]=Wetterbericht
+@@ -45,6 +46,7 @@
+ Comment=Displays Weather information
+ Comment[ar]=تعرض معلومات الطقس
+ Comment[ca]=Mostra informació meteorològica
++Comment[ca@valencia]=Mostra informació meteorològica
+ Comment[cs]=Zobrazuje informace o počasí
+ Comment[da]=Viser vejrinformation.
+ Comment[de]=Zeigt Wetterinformationen an
+diff -Nur kdeplasma-addons-4.3.4/applets/weatherstation/plasma-applet-weatherstation.desktop kdeplasma-addons-4.3.5/applets/weatherstation/plasma-applet-weatherstation.desktop
+--- kdeplasma-addons-4.3.4/applets/weatherstation/plasma-applet-weatherstation.desktop	2009-10-02 10:22:01.000000000 +0200
++++ kdeplasma-addons-4.3.5/applets/weatherstation/plasma-applet-weatherstation.desktop	2010-01-21 21:48:30.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=LCD Weather Station
+ Name[ar]=محطة الطقس المسطحة
+ Name[ca]=Estació meteorològica LCD
++Name[ca@valencia]=Estació meteorològica LCD
+ Name[cs]=LCD meteostanice
+ Name[da]=LCD-vejrstation
+ Name[de]=LCD-Wetterstation
+@@ -50,6 +51,7 @@
+ Comment=Weather reports with an LCD display style
+ Comment[ar]=تقارير الطقس  بنمط عرض شاشة مسطحة
+ Comment[ca]=Informes meteorològics en una pantalla d'estil LCD
++Comment[ca@valencia]=Informes meteorològics en una pantalla d'estil LCD
+ Comment[cs]=Zprávy o počasí se stylem zobrazení LCD
+ Comment[da]=Vejrudsigt med stil som en LCD-skærm.
+ Comment[de]=Wetterberichte im LCD-Stil
+diff -Nur kdeplasma-addons-4.3.4/dataengines/comic/plasma_comicprovider.desktop kdeplasma-addons-4.3.5/dataengines/comic/plasma_comicprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/comic/plasma_comicprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/comic/plasma_comicprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -4,6 +4,7 @@
+ Comment=Plugin for Plasma Comic Engine
+ Comment[ar]=ملحق لمحرك Comic 
+ Comment[ca]=Connector per al motor de còmics del plasma
++Comment[ca@valencia]=Connector per al motor de còmics del plasma
+ Comment[cs]=Modul pro Plasma komiksy
+ Comment[da]=Plugin til Plasmas tegneseriemotor
+ Comment[de]=Plasma-Modul für Comic-Strips
+diff -Nur kdeplasma-addons-4.3.4/dataengines/comic/plasma-dataengine-comic.desktop kdeplasma-addons-4.3.5/dataengines/comic/plasma-dataengine-comic.desktop
+--- kdeplasma-addons-4.3.4/dataengines/comic/plasma-dataengine-comic.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/comic/plasma-dataengine-comic.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Comic Strips
+ Name[ar]=شرائط هزلية
+ Name[ca]=Tires còmiques
++Name[ca@valencia]=Tires còmiques
+ Name[cs]=Komiksové proužky
+ Name[da]=Tegneseriestriber
+ Name[de]=Comics
+@@ -48,6 +49,7 @@
+ Comment=Online comic strips
+ Comment[ar]=شرائط هزلية على الويب
+ Comment[ca]=Tires còmiques en línia
++Comment[ca@valencia]=Tires còmiques en línia
+ Comment[cs]=Online komiksové proužky
+ Comment[da]=Online tegneseriestriber.
+ Comment[de]=Online-Comics
+diff -Nur kdeplasma-addons-4.3.4/dataengines/comic/plasma-packagestructure-comic.desktop kdeplasma-addons-4.3.5/dataengines/comic/plasma-packagestructure-comic.desktop
+--- kdeplasma-addons-4.3.4/dataengines/comic/plasma-packagestructure-comic.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/comic/plasma-packagestructure-comic.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Comic
+ Name[ar]=Comic
+ Name[ca]=Còmic
++Name[ca@valencia]=Còmic
+ Name[cs]=Komiks
+ Name[da]=Tegneserie
+ Name[de]=Comic
+@@ -47,6 +48,7 @@
+ Comment=Comic Package Structure
+ Comment[ar]=بنية حزمة Comic
+ Comment[ca]=Estructura de paquet de còmic
++Comment[ca@valencia]=Estructura de paquet de còmic
+ Comment[cs]=Struktura komiksového balíčku
+ Comment[da]=Tegneseriepakkestruktur
+ Comment[de]=Comic-Paketstruktur
+diff -Nur kdeplasma-addons-4.3.4/dataengines/microblog/plasma-dataengine-microblog.desktop kdeplasma-addons-4.3.5/dataengines/microblog/plasma-dataengine-microblog.desktop
+--- kdeplasma-addons-4.3.4/dataengines/microblog/plasma-dataengine-microblog.desktop	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/dataengines/microblog/plasma-dataengine-microblog.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Microblogging
+ Name[ar]=التدوين المصغر
+ Name[ca]=Microblocs
++Name[ca@valencia]=Microblocs
+ Name[cs]=Mikroblogování
+ Name[da]=Mikroblogning
+ Name[de]=Microblogging
+@@ -43,6 +44,7 @@
+ Comment=identi.ca and twitter micro-blogging services
+ Comment[ar]=خدمات التدوين المصغر من تويتر و identi.ca
+ Comment[ca]=Serveis de microblocs identi.ca i twitter
++Comment[ca@valencia]=Serveis de microblocs identi.ca i twitter
+ Comment[da]=identi.ca og twitter mikroblogningstjenester
+ Comment[de]=identi.ca und twitter Micro-Blogging-Services
+ Comment[el]=Υπηρεσίες identi.ca και twitter μικροϊστολογίου
+diff -Nur kdeplasma-addons-4.3.4/dataengines/ocs/plasma-dataengine-ocs.desktop kdeplasma-addons-4.3.5/dataengines/ocs/plasma-dataengine-ocs.desktop
+--- kdeplasma-addons-4.3.4/dataengines/ocs/plasma-dataengine-ocs.desktop	2009-10-02 10:21:59.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/ocs/plasma-dataengine-ocs.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,8 @@
+ Name=Open Collaboration Services
+ Name[ar]=خدمات التعاون المفتوحة
+ Name[ca]=Serveis «Open Collaboration»
++Name[ca@valencia]=Serveis «Open Collaboration»
++Name[cs]=Služby otevřené spolupráce
+ Name[da]=Open Collaboration-tjenester
+ Name[de]=Open Collaboration Services
+ Name[el]=Άνοιγμα υπηρεσιών ανοιχτής συνεργασίας
+@@ -19,14 +21,14 @@
+ Name[lv]=Open Collaboration pakalpojumi
+ Name[nb]=Åpne samarbeidstjenester
+ Name[nds]=Open-Collaboration-Deensten
+-Name[nl]=Open Collaboration Services
++Name[nl]=Samenwerkingservices openen
+ Name[nn]=Opne samarbeidtenester
+ Name[pl]=Usługi do współpracy (Open Collaboration)
+ Name[pt]=Serviços Abertos de Colaboração
+ Name[pt_BR]=Serviços abertos de colaboração
+ Name[ro]=Servicii de Colaborare Deschisă
+ Name[sk]=Služby Open Collaboration
+-Name[sl]=Odprte storitve za sodelovanje
++Name[sl]=Storitve Open Collaboration
+ Name[sr]=Сервиси отворене сарадње
+ Name[sr@latin]=Servisi otvorene saradnje
+ Name[sv]=Öppna sammarbetstjänster
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/apodprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/apodprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/apodprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/apodprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Apod Provider
+ Name[ar]=المزود Apod
+ Name[ca]=Proveïdor Apod
++Name[ca@valencia]=Proveïdor Apod
+ Name[cs]=Poskytovatel Apodu
+ Name[da]=Apod-udbyder
+ Name[de]=Apod-Anbieter
+@@ -46,6 +47,7 @@
+ Comment=Apod Provider
+ Comment[ar]=المزود Apod
+ Comment[ca]=Proveïdor Apod
++Comment[ca@valencia]=Proveïdor Apod
+ Comment[cs]=Poskytovatel Apodu
+ Comment[da]=Apod-udbyder.
+ Comment[de]=Apod-Anbieter
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/epodprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/epodprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/epodprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/epodprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Epod Provider
+ Name[ar]=المزود Epod
+ Name[ca]=Proveïdor Epod
++Name[ca@valencia]=Proveïdor Epod
+ Name[cs]=Poskytovatel Epodu
+ Name[da]=Epod-udbyder
+ Name[de]=Epod-Anbieter
+@@ -46,6 +47,7 @@
+ Comment=Epod Provider
+ Comment[ar]=المزود Epod
+ Comment[ca]=Proveïdor Epod
++Comment[ca@valencia]=Proveïdor Epod
+ Comment[cs]=Poskytovatel Epodu
+ Comment[da]=Epod-udbyder.
+ Comment[de]=Epod-Anbieter
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/flickrprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/flickrprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/flickrprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/flickrprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Flickr Provider
+ Name[ar]=الموزد Flickr
+ Name[ca]=Proveïdor Flickr
++Name[ca@valencia]=Proveïdor Flickr
+ Name[cs]=Poskytovatel Flickru
+ Name[da]=Flickr-udbyder
+ Name[de]=Flickr-Anbieter
+@@ -47,6 +48,7 @@
+ Comment=Flickr Provider
+ Comment[ar]=الموزد Flickr
+ Comment[ca]=Proveïdor Flickr
++Comment[ca@valencia]=Proveïdor Flickr
+ Comment[cs]=Poskytovatel Flickru
+ Comment[da]=Flickr-udbyder.
+ Comment[de]=Flickr-Anbieter
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/oseiprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/oseiprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/oseiprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/oseiprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Osei Provider
+ Name[ar]=المزود Osei
+ Name[ca]=Proveïdor Osei
++Name[ca@valencia]=Proveïdor Osei
+ Name[cs]=Poskytovatel Osei
+ Name[da]=Osei-udbyder
+ Name[de]=Osei-Anbieter
+@@ -46,6 +47,7 @@
+ Comment=Osei Provider
+ Comment[ar]=المزود Osei
+ Comment[ca]=Proveïdor Osei
++Comment[ca@valencia]=Proveïdor Osei
+ Comment[cs]=Poskytovatel Osei
+ Comment[da]=Osei-udbyder.
+ Comment[de]=Osei-Anbieter
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/plasma-dataengine-potd.desktop kdeplasma-addons-4.3.5/dataengines/potd/plasma-dataengine-potd.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/plasma-dataengine-potd.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/plasma-dataengine-potd.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Picture of the Day
+ Name[ar]=صورة اليوم
+ Name[ca]=Imatge del dia
++Name[ca@valencia]=Imatge del dia
+ Name[cs]=Obrázek dne
+ Name[da]=Dagens billede
+ Name[de]=Bild des Tages
+@@ -41,7 +42,8 @@
+ Name[zh_TW]=本日圖片
+ Comment=Data Engine for getting various online Pictures of The Day.
+ Comment[ar]=محرك بيانات للحصول على مختلف صور هذا اليوم من الإنترنت.
+-Comment[ca]=Motor de dades per accedir a varies "imagtes del dia" en línia.
++Comment[ca]=Motor de dades per accedir a varies "imatges del dia" en línia.
++Comment[ca@valencia]=Motor de dades per accedir a varies "imatges del dia" en línia.
+ Comment[cs]=Mechanismus pro získávání různých obrázků dne ze sítě.
+ Comment[da]=Datamotor der henter diverse online dagens billede.
+ Comment[de]=Daten-Treiber zum Holen verschiedener Bilder des Tages.
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/plasma_potdprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/plasma_potdprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/plasma_potdprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/plasma_potdprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -4,6 +4,7 @@
+ Comment=Plugin for Plasma PoTD Engine
+ Comment[ar]=ملحق لمحرك PoTD
+ Comment[ca]=Connector per al motor PoTD del plasma
++Comment[ca@valencia]=Connector per al motor PoTD del plasma
+ Comment[cs]=Modul pro Plasma PoTD engine
+ Comment[da]=Plugin til Plasmas dagens billede-motor.
+ Comment[de]=Plasma-Modul für Bilder des Tages
+diff -Nur kdeplasma-addons-4.3.4/dataengines/potd/wcpotdprovider.desktop kdeplasma-addons-4.3.5/dataengines/potd/wcpotdprovider.desktop
+--- kdeplasma-addons-4.3.4/dataengines/potd/wcpotdprovider.desktop	2009-10-02 10:22:00.000000000 +0200
++++ kdeplasma-addons-4.3.5/dataengines/potd/wcpotdprovider.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Wcpotd Provider
+ Name[ar]=المزود Wcpotd
+ Name[ca]=Proveïdor Wcpotd
++Name[ca@valencia]=Proveïdor Wcpotd
+ Name[cs]=Poskytovatel Wcpotd
+ Name[da]=Wcpotd-udbyder
+ Name[de]=Wcpotd-Anbieter
+@@ -47,6 +48,7 @@
+ Comment=Wcpotd Provider
+ Comment[ar]=المزود Wcpotd
+ Comment[ca]=Proveïdor Wcpotd
++Comment[ca@valencia]=Proveïdor Wcpotd
+ Comment[cs]=Poskytovatel Wcpotd
+ Comment[da]=Wcpotd-udbyder.
+ Comment[de]=Wcpotd-Anbieter
+diff -Nur kdeplasma-addons-4.3.4/dataengines/rememberthemilk/plasma-engine-rtm.desktop kdeplasma-addons-4.3.5/dataengines/rememberthemilk/plasma-engine-rtm.desktop
+--- kdeplasma-addons-4.3.4/dataengines/rememberthemilk/plasma-engine-rtm.desktop	2009-10-30 13:32:36.000000000 +0100
++++ kdeplasma-addons-4.3.5/dataengines/rememberthemilk/plasma-engine-rtm.desktop	2010-01-21 21:48:29.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Remember The Milk Engine
+ Name[ar]=محرك Remember The Milk
+ Name[ca]=Motor per «Remember The Milk»
++Name[ca@valencia]=Motor per «Remember The Milk»
+ Name[da]=Remember The Milk-motor
+ Name[de]=Remember-the-Milk-Treiber
+ Name[en_GB]=Remember The Milk Engine
+@@ -39,6 +40,7 @@
+ Comment=An engine to work with Remember the Milk.
+ Comment[ar]=محرك يعمل مع  Remember the Milk .
+ Comment[ca]=Un motor per treballar amb «Remember The Milk».
++Comment[ca@valencia]=Un motor per treballar amb «Remember The Milk».
+ Comment[da]=En motor der virker med Remember the Milk.
+ Comment[de]=Ein Treiber, der mit Remember the Milk arbeitet.
+ Comment[en_GB]=An engine to work with Remember the Milk.
+diff -Nur kdeplasma-addons-4.3.4/runners/browserhistory/browserhistory.desktop kdeplasma-addons-4.3.5/runners/browserhistory/browserhistory.desktop
+--- kdeplasma-addons-4.3.4/runners/browserhistory/browserhistory.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/browserhistory/browserhistory.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Web Browser History
+ Name[ar]=تاريخ متصفح الويب
+ Name[ca]=Historial del navegador web
++Name[ca@valencia]=Historial del navegador web
+ Name[cs]=Historie prohlížeče
+ Name[da]=Webbrowser-historik
+ Name[de]=Webbrowser-Verlauf
+@@ -42,6 +43,7 @@
+ Comment=Searches in Konqueror's history
+ Comment[ar]=تبحث في تاريخ كنيكر
+ Comment[ca]=Cerques a l'historial del Konqueror
++Comment[ca@valencia]=Cerques a l'historial del Konqueror
+ Comment[cs]=Vyhledávání v historii prohlížeče Konqueror
+ Comment[da]=Søger i Konquerors historik.
+ Comment[de]=Suche im Verlauf von Konqueror
+diff -Nur kdeplasma-addons-4.3.4/runners/contacts/plasma-runner-contacts.desktop kdeplasma-addons-4.3.5/runners/contacts/plasma-runner-contacts.desktop
+--- kdeplasma-addons-4.3.4/runners/contacts/plasma-runner-contacts.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/contacts/plasma-runner-contacts.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Contacts
+ Name[ar]=جهات الاتصال
+ Name[ca]=Contactes
++Name[ca@valencia]=Contactes
+ Name[cs]=Kontakty
+ Name[da]=Kontakter
+ Name[de]=Kontakte
+@@ -51,6 +52,7 @@
+ Comment=Finds entries in your address book
+ Comment[ar]=تبحث عن مدخلات في دفتر العناوين
+ Comment[ca]=Cerca entrades a la llibreta d'adreces
++Comment[ca@valencia]=Cerca entrades a la llibreta d'adreces
+ Comment[cs]=Vyhledávání položek v adresáři
+ Comment[da]=Finder indgange i din adressebog.
+ Comment[de]=Einträge in Ihrem Adressbuch suchen
+diff -Nur kdeplasma-addons-4.3.4/runners/converter/plasma-runner-converter.desktop kdeplasma-addons-4.3.5/runners/converter/plasma-runner-converter.desktop
+--- kdeplasma-addons-4.3.4/runners/converter/plasma-runner-converter.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/converter/plasma-runner-converter.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Unit Converter
+ Name[ar]=محول الوحدات
+ Name[ca]=Conversor d'unitats
++Name[ca@valencia]=Conversor d'unitats
+ Name[cs]=Převod jednotek
+ Name[da]=Enhedskonvertering
+ Name[de]=Einheiten-Umwandler
+@@ -49,6 +50,7 @@
+ Comment=Convert values to different units
+ Comment[ar]=حول قيمة الى وحدات مختلفة
+ Comment[ca]=Converteix valors a diferents unitats
++Comment[ca@valencia]=Converteix valors a diferents unitats
+ Comment[cs]=Převod jednotek
+ Comment[da]=Konvertér værdier til andre enheder.
+ Comment[de]=Werte in verschiedene Einheiten umrechnen
+diff -Nur kdeplasma-addons-4.3.4/runners/katesessions/katesessions.desktop kdeplasma-addons-4.3.5/runners/katesessions/katesessions.desktop
+--- kdeplasma-addons-4.3.4/runners/katesessions/katesessions.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/katesessions/katesessions.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Kate Sessions
+ Name[ar]=جلسات كيت
+ Name[ca]=Sessions del Kate
++Name[ca@valencia]=Sessions del Kate
+ Name[cs]=Relace Kate
+ Name[da]=Kate-sessioner
+ Name[de]=Kate-Sitzungen
+@@ -49,6 +50,7 @@
+ Comment=Matches Kate Sessions
+ Comment[ar]=تطابق جلسات كيت
+ Comment[ca]=Coincideix amb les sessions del Kate
++Comment[ca@valencia]=Coincideix amb les sessions del Kate
+ Comment[cs]=Vyhledávání v relacích Kate
+ Comment[da]=Matcher Kate-sessioner.
+ Comment[de]=Findet Kate-Sitzungen
+diff -Nur kdeplasma-addons-4.3.4/runners/konquerorsessions/konquerorsessions.desktop kdeplasma-addons-4.3.5/runners/konquerorsessions/konquerorsessions.desktop
+--- kdeplasma-addons-4.3.4/runners/konquerorsessions/konquerorsessions.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/konquerorsessions/konquerorsessions.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Konqueror Sessions
+ Name[ar]=جلسات كنكير
+ Name[ca]=Sessions del Konqueror
++Name[ca@valencia]=Sessions del Konqueror
+ Name[cs]=Relace Konqueroru
+ Name[da]=Konqueror-sessioner
+ Name[de]=Konqueror-Sitzungen
+@@ -49,6 +50,7 @@
+ Comment=Matches Konqueror Sessions
+ Comment[ar]=تطابق جلسات كنكير
+ Comment[ca]=Coincideix amb les sessions del Konqueror
++Comment[ca@valencia]=Coincideix amb les sessions del Konqueror
+ Comment[cs]=Vyhledávání v relacích Konqueroru
+ Comment[da]=Matcher Konqueror-sessioner.
+ Comment[de]=Findet Konqueror-Sitzungen
+diff -Nur kdeplasma-addons-4.3.4/runners/konsolesessions/konsolesessions.desktop kdeplasma-addons-4.3.5/runners/konsolesessions/konsolesessions.desktop
+--- kdeplasma-addons-4.3.4/runners/konsolesessions/konsolesessions.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/konsolesessions/konsolesessions.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Konsole Sessions
+ Name[ar]=جلسات كونسول
+ Name[ca]=Sessions del Konsole
++Name[ca@valencia]=Sessions del Konsole
+ Name[cs]=Relace Konsole
+ Name[da]=Konsole-sessioner
+ Name[de]=Konsole-Sitzungen
+@@ -49,6 +50,7 @@
+ Comment=Matches Konsole Sessions
+ Comment[ar]=تطابق جلسات كونسول
+ Comment[ca]=Coincideix amb les sessions del Konsole
++Comment[ca@valencia]=Coincideix amb les sessions del Konsole
+ Comment[cs]=Vyhledávání v relacích Konsole
+ Comment[da]=Matcher Konsole-sessioner.
+ Comment[de]=Findet Konsole-Sitzungen
+diff -Nur kdeplasma-addons-4.3.4/runners/spellchecker/plasma-runner-spellchecker_config.desktop kdeplasma-addons-4.3.5/runners/spellchecker/plasma-runner-spellchecker_config.desktop
+--- kdeplasma-addons-4.3.4/runners/spellchecker/plasma-runner-spellchecker_config.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/spellchecker/plasma-runner-spellchecker_config.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -9,6 +9,7 @@
+ Name=Spell Checker Runner
+ Name[ar]=مشغل المدقق الإملائي
+ Name[ca]=Executador de la verificació ortogràfica
++Name[ca@valencia]=Executador de la verificació ortogràfica
+ Name[cs]=Kontrola pravopisu
+ Name[da]=Runner til stavekontrol
+ Name[de]=Rechtschreibprüfung
+diff -Nur kdeplasma-addons-4.3.4/runners/spellchecker/plasma-runner-spellchecker.desktop kdeplasma-addons-4.3.5/runners/spellchecker/plasma-runner-spellchecker.desktop
+--- kdeplasma-addons-4.3.4/runners/spellchecker/plasma-runner-spellchecker.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/runners/spellchecker/plasma-runner-spellchecker.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Spell Checker Runner
+ Name[ar]=مشغل المدقق الإملائي
+ Name[ca]=Executador de la verificació ortogràfica
++Name[ca@valencia]=Executador de la verificació ortogràfica
+ Name[cs]=Kontrola pravopisu
+ Name[da]=Runner til stavekontrol
+ Name[de]=Rechtschreibprüfung
+@@ -48,6 +49,7 @@
+ Comment=Check the spelling of a word
+ Comment[ar]=تحقق من هجاء الكلمات
+ Comment[ca]=Comprova l'ortografia d'una paraula
++Comment[ca@valencia]=Comprova l'ortografia d'una paraula
+ Comment[cs]=Kontrola pravopisu
+ Comment[da]=Tjekker et ords stavning.
+ Comment[de]=Rechtschreibung eines Wortes überprüfen
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/mandelbrot/plasma-wallpaper-mandelbrot.desktop kdeplasma-addons-4.3.5/wallpapers/mandelbrot/plasma-wallpaper-mandelbrot.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/mandelbrot/plasma-wallpaper-mandelbrot.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/mandelbrot/plasma-wallpaper-mandelbrot.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Mandelbrot
+ Name[ar]=Mandelbrot
+ Name[ca]=Mandelbrot
++Name[ca@valencia]=Mandelbrot
+ Name[cs]=Mandelbrot
+ Name[da]=Mandelbrot
+ Name[de]=Mandelbrot
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/marble/plasma-wallpaper-marble.desktop kdeplasma-addons-4.3.5/wallpapers/marble/plasma-wallpaper-marble.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/marble/plasma-wallpaper-marble.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/marble/plasma-wallpaper-marble.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Globe
+ Name[ar]=الكرة الأرضية
+ Name[ca]=Globus
++Name[ca@valencia]=Globus
+ Name[cs]=Globus
+ Name[da]=Globus
+ Name[de]=Globus
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/fish.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/fish.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/fish.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/fish.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Fish Net
+ Comment[ar]=شبكة صيد
+ Comment[ca]=Xarxa de peix
++Comment[ca@valencia]=Xarxa de peix
+ Comment[cs]=Rybářská síť
+ Comment[da]=Fiskenet
+ Comment[de]=Fishernetz
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/flowers.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/flowers.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/flowers.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/flowers.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Flowers
+ Comment[ar]=الزهور
+ Comment[ca]=Flors
++Comment[ca@valencia]=Flors
+ Comment[cs]=Květiny
+ Comment[da]=Blomster
+ Comment[de]=Blumen
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/night-rock.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/night-rock.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/night-rock.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/night-rock.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Night Rock by Tigert
+ Comment[ar]=ليلة روك بواسطة Tigert
+ Comment[ca]=Night Rock per Tigert
++Comment[ca@valencia]=Night Rock per Tigert
+ Comment[cs]=Noční skála (od Tigerta)
+ Comment[da]=Night Rock af Tigert
+ Comment[de]=Nachtgestein von Tigert
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/pavement.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/pavement.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/pavement.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/pavement.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Pavement
+ Comment[ar]=الرصيف
+ Comment[ca]=Paviment
++Comment[ca@valencia]=Paviment
+ Comment[cs]=Dlažba
+ Comment[da]=Brosten
+ Comment[de]=Pflaster
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/rattan.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/rattan.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/rattan.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/rattan.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Rattan
+ Comment[ar]=الروطان
+ Comment[ca]=Rotang
++Comment[ca@valencia]=Rotang
+ Comment[cs]=Rattan
+ Comment[da]=Peddigrør
+ Comment[de]=Rattan
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/stonewall2.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/stonewall2.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/stonewall2.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/stonewall2.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Stonewall 2 by Tigert
+ Comment[ar]=حجر الحائط 2 بواسطة Tigert
+ Comment[ca]=Mur 2 per Tigert
++Comment[ca@valencia]=Mur 2 per Tigert
+ Comment[cs]=Kamenná stěna (od Tigerta)
+ Comment[da]=Stonewall 2 af Tigert
+ Comment[de]=Steinwand 2 von Tigert
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/triangles.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/triangles.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/triangles.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/triangles.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Triangles
+ Comment[ar]=المثلثات
+ Comment[ca]=Triangles
++Comment[ca@valencia]=Triangles
+ Comment[cs]=Trojúhelníky
+ Comment[da]=Trekanter
+ Comment[de]=Dreiecke
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/xeroxstar.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/xeroxstar.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/patterns/xeroxstar.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/patterns/xeroxstar.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Comment=Xerox Star
+ Comment[ar]=نجم زيروكس
+ Comment[ca]=Estrella Xerox
++Comment[ca@valencia]=Estrella Xerox
+ Comment[cs]=Xerox hvězda
+ Comment[da]=Xerox Star
+ Comment[de]=Xerox Star
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/pattern/plasma-wallpaper-pattern.desktop kdeplasma-addons-4.3.5/wallpapers/pattern/plasma-wallpaper-pattern.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/pattern/plasma-wallpaper-pattern.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/pattern/plasma-wallpaper-pattern.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -2,6 +2,7 @@
+ Name=Pattern
+ Name[ar]=نسق
+ Name[ca]=Patró
++Name[ca@valencia]=Patró
+ Name[cs]=Vzorek
+ Name[da]=Mønster
+ Name[de]=Muster
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/virus/plasma-wallpaper-virus.desktop kdeplasma-addons-4.3.5/wallpapers/virus/plasma-wallpaper-virus.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/virus/plasma-wallpaper-virus.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/virus/plasma-wallpaper-virus.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Virus
+ Name[ar]=فيروس
+ Name[ca]=Virus
++Name[ca@valencia]=Virus
+ Name[cs]=Virus
+ Name[da]=Virus
+ Name[de]=Virus
+diff -Nur kdeplasma-addons-4.3.4/wallpapers/weather/plasma-wallpaper-weather.desktop kdeplasma-addons-4.3.5/wallpapers/weather/plasma-wallpaper-weather.desktop
+--- kdeplasma-addons-4.3.4/wallpapers/weather/plasma-wallpaper-weather.desktop	2009-10-02 10:22:02.000000000 +0200
++++ kdeplasma-addons-4.3.5/wallpapers/weather/plasma-wallpaper-weather.desktop	2010-01-21 21:48:31.000000000 +0100
+@@ -3,6 +3,7 @@
+ Name=Weather
+ Name[ar]=الطقس
+ Name[ca]=Meteorologia
++Name[ca@valencia]=Meteorologia
+ Name[cs]=Počasí
+ Name[da]=Vejr
+ Name[de]=Wetter

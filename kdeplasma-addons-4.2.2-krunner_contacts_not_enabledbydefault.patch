@@ -1,0 +1,8 @@
+diff -up kdeplasma-addons-4.2.2/runners/contacts/plasma-runner-contacts.desktop.disable_contacts_krunner kdeplasma-addons-4.2.2/runners/contacts/plasma-runner-contacts.desktop
+--- kdeplasma-addons-4.2.2/runners/contacts/plasma-runner-contacts.desktop.disable_contacts_krunner	2009-03-26 09:43:17.000000000 -0500
++++ kdeplasma-addons-4.2.2/runners/contacts/plasma-runner-contacts.desktop	2009-04-30 14:43:36.820331028 -0500
+@@ -92,4 +92,3 @@ X-KDE-PluginInfo-Email=tpr@iki.fi
+ X-KDE-PluginInfo-Name=kabccontacts
+ X-KDE-PluginInfo-Version=1.0
+ X-KDE-PluginInfo-License=LGPL
+-X-KDE-PluginInfo-EnabledByDefault=true
